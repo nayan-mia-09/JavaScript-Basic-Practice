@@ -120,4 +120,18 @@ console.log(7 != 10); // true
         console.log("Walking is Excercising.");
     }
 
-    
+
+
+    // Array 
+
+    const numbers = [1,2,5,66,11,45];
+
+
+    const size = numbers.length;
+    console.log(size); // 6
+
+
+
+    const numbers2 = [10,25,26,31,42,84,38,12,1];
+    const fourth = numbers2[14];
+    console.log(fourth); // 42
