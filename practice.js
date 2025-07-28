@@ -63,3 +63,18 @@ const megaCity = "Dhaka";
 console.log(typeof megaCity); // String
 
 
+// ParseInt and ParseFloat 
+
+const sugar = parseInt("20");
+console.log(typeof sugar); // 20 number
+
+const fatherAge = "50";
+const fatherAgeNumber = parseInt(fatherAge);
+console.log(fatherAgeNumber) // 50
+
+const first = 12.13568;
+const second = 31.22564;
+
+const total = first + second;
+console.log(total.toFixed(2)) // 43.36
+
