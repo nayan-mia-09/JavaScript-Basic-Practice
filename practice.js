@@ -135,3 +135,18 @@ console.log(7 != 10); // true
     const numbers2 = [10,25,26,31,42,84,38,12,1];
     const fourth = numbers2[14];
     console.log(fourth); // 42
+
+
+
+    // Push and Pop in Array 
+
+    const arr = [12.87,98,45];
+    arr.push(44,65,98,11,9);
+
+    console.log(arr); // [12,87,98,45,44,65,98,11,9]
+
+
+const friends = ["balam", "kalam", "salam", "gelam", "pailam"];
+
+friends.pop();
+console.log(friends); // ["balam", "kalam", "salam", "gelam"];
