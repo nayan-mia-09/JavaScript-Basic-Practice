@@ -78,3 +78,22 @@ const second = 31.22564;
 const total = first + second;
 console.log(total.toFixed(2)) // 43.36
 
+
+
+// Comparision 
+
+console.log(5 > 10); // false
+
+console.log(5 < 10); // true
+
+console.log(5 == 10); // false 
+
+console.log(10 == 10); // true
+
+console.log(10 >= 10); // true 
+
+console.log(15 >= 10); // true
+
+console.log(5 <= 10); // true
+
+console.log(7 != 10); // true 
