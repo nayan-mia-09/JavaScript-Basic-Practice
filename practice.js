@@ -97,3 +97,27 @@ console.log(15 >= 10); // true
 console.log(5 <= 10); // true
 
 console.log(7 != 10); // true 
+
+
+// If else
+
+
+
+    const rainingOutside = true;
+
+    if(rainingOutside == true){
+        console.log("You and me - under the tree.");
+    }else{
+        console.log("No rain, no romance.");
+    }
+
+
+    const weight = 40;
+
+    if(weight > 20){
+        console.log("Rickshaw mama cholo jai.");
+    }else{
+        console.log("Walking is Excercising.");
+    }
+
+    
